@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/widescreen.css/">
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <title>Home</title>
+</head>
+<body>
+   
+
+     <!-- Navbar -->
+     <section id="home">
+  <nav id="navbar">
+   <h1 class="logo">
+     <span class="text-primary">
+       <i class="fas fa-book-open"></i>MZ
+     </span> Finanças
+     </h1>
+     <ul>
+     <li><a href="#home">Home</a></li>
+     <li><a href="#oque">Oque</a></li>
+     <li><a href="#quem">Quem</a></li>
+     <li><a href="#contact">Contacto</a></li>
+   </ul>
+</nav>
+</section>
+
+<!-- Header: Showcase -->
+<header id="showcase">
+ <div class="showcase-content">
+   <h1 class="l-heading">
+     O Céu é o Limite
+   </h1>
+   <p class="lead">Lorem ipsum dolor sit amet consectetur, 
+     adipisicing elit. Dicta non dolorem, nemo 
+     quisquam nam adipisci.</p>
+     <a href="#oque" class="btn">Read 
+       More</a>
+ </div>
+</header>
+<!-- Section: oque fazemos -->
+<section id="oque" class="bg-light py-1">
+ <div class="container">
+   <h2 class="m-heading text-center"><span class="text-primary">Oque</span> 
+     fazemos</h2>
+     <div class="items">
+       <div class="item"> 
+         <i class="fas fa-university fa-2x"></i>
+         <div>
+           <h3>Investimento Bancário</h3>
+           <p>Facilitamos o trabalho e documentos caso haja necessidade
+             de um emprestimo bancario.</p>
+         </div>
+       </div>
+       <div class="item">
+         <i class="fas fa-book-reader fa-2x"></i>
+         <div>
+           <h3>Gerenciamento de clientes</h3>
+           <p>Corremos em busca de novos clientes para a sua empresa,
+             e ficamos a par de todas as promocoes do mercado em 
+            busca de novas oportunidades.</p>
+           </div>
+       </div>
+       <div class="item">
+         <i class="fas fa-pencil-alt fa-2x"></i>
+         <div>
+           <h3>Tax & Custodial</h3>
+           <p>Tratamos todos os Documentos que a sua empresa precisa para
+             o mercado de trabalho... Caso haja alguma divida do cliente a empresa,
+             tambem vamos em busca da solucao.</p>
+         </div>
+       </div>
+     </div>
+ </div>
+</section>
+
+<!-- Section: Quem somos -->
+<section id="quem">
+ <div class="quem-img"></div>
+ <div class="quem-text bg-dark p-2">
+   <h2 class="m-heading"><span class="text-primary">Quem</span> 
+     Somos</h2>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+     elit. Vitae, iure quaerat? Incidunt commodi, exercitationem 
+     reprehenderit facere atque alias. Omnis officiis illum numquam 
+     aut delectus, tempora dolorum dicta ipsam qui quo?</p>
+     <h3>Nossa equipe</h3>
+     <ul class="list">
+       <li>Edmilson Alves: CEO</li>
+       <li>Claudio Mex : Gerente</li>
+       <li>Irson Arlindo: Gerente de investimento</li>
+     </ul>
+ </div>
+</section>
+
+<!-- Section: Clientes -->
+<section id="clientes" class="py-1 bg-light">
+ <div class="container">
+   <h2 class="m-heading text-center">
+     <span class="text-primary">Nossos</span> 
+     Clientes
+   </h2>
+   <!--Logotipos das empresas clientes fieis-->
+   <div class="items py-1">
+     <div><img src="./img/logo1.png" alt="cliente"></div>
+     <div><img src="./img/logo2.png" alt="cliente"></div>
+     <div><img src="./img/logo3.png" alt="cliente"></div>
+   </div>
+ </div>
+</section>
+
+<!-- Section: Contacto -->
+<section id="contact">
+ <div class="contact-form bg-primary p-2">
+   <h2 class="m-heading">Nos Contacte</h2>
+   <p>Por favor, use a tabela abaixo para nos contactar</p>
+   <form action="process.php" method="POST">
+     <div class="form-group">
+       <label for="name">Nome</label>
+       <input type="text" name="name" id="name" placeholder="Nome">
+     </div>
+     <div class="form-group">
+       <label for="email">Email</label>
+       <input type="text" name="email" id="email" placeholder="Email">
+     </div>
+     <div class="form-group">
+       <label for="phone">Numero de telefone</label>
+       <input type="text" name="phone" id="phone" placeholder="Numero de telefone">
+     </div>
+     <div class="form-group">
+       <label for="message">mensagem</label>
+       <textarea name="message" id="message" placeholder="Escreva sua mensagem"></textarea>
+     </div>
+     <button type="submit" value="submit">Enviar</button>
+      </form>
+ </div>
+ <div class="map"></div>
+</section>
+<!-- Footer/rodape -->
+<footer id="main-footer"class="bg-dark text-center py-1">
+ <div class="container">
+   <p>Copyright &copy; 2022</p>
+ </div>
+ </footer>
+
+<!-- JQuery CDN -->
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+
+<!-- Local do arquivo JS -->
+<script src="js/main.js"></script>
+
+<!-- Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrHh8isAu3NGKaDxL0M7iIjliajGsaAoM&callback=initMap"
+async defer></script>
+
+
+
+
+</body>
+</html>
